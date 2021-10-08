@@ -16,7 +16,7 @@
 
 include $(CURDIR)/src/common.mk
 
-LIBS := libload graphx fontlibc keypadc fileioc usbdrvce msddrvce
+LIBS := libload graphx fontlibc keypadc fileioc usbdrvce msddrvce fatdrvce
 SRCS := ce crt libc libcxx
 TOOLS := fasmg convbin convimg convfont cedev-config
 
